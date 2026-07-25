@@ -1,0 +1,1715 @@
+{
+  "repository_root": "/Users/lisenkaci/Desktop/Code Assignment/spring-rest-sakila",
+  "selected_file_count": 213,
+  "skipped_file_count": 18,
+  "skipped_by_reason": {
+    "file_too_large": 1,
+    "unsupported_file_type": 17
+  },
+  "files": [
+    {
+      "path": ".github/workflows/gradle.yml",
+      "category": "context",
+      "language": "YAML",
+      "byte_size": 549,
+      "line_count": 32,
+      "sha256": "2045b2e53b15751a3170f22a0dbe2a506b98cffe50c0af52234c34128bdf128b"
+    },
+    {
+      "path": "README.md",
+      "category": "context",
+      "language": "Markdown",
+      "byte_size": 5061,
+      "line_count": 178,
+      "sha256": "3d9f7306f8290e6641ba2b9a525b54b7b68443b4cfa3215be55def03104d5bb0"
+    },
+    {
+      "path": "README_ko-KR.md",
+      "category": "context",
+      "language": "Markdown",
+      "byte_size": 5657,
+      "line_count": 178,
+      "sha256": "ebbfff6f45227202af1105f07a49be3bebdbbf4d95a3285a3fa4460180b826ab"
+    },
+    {
+      "path": "build.gradle.kts",
+      "category": "context",
+      "language": "Kotlin Script",
+      "byte_size": 4612,
+      "line_count": 160,
+      "sha256": "57b44d64adf49d30215cf0ef462bcf492e26d5f9b924b75c7bcdfecb6bc83733"
+    },
+    {
+      "path": "gradle.properties",
+      "category": "context",
+      "language": "Properties",
+      "byte_size": 108,
+      "line_count": 1,
+      "sha256": "e6d4590cbbd3959e66d11eb76695ded7d62f0bc5e977ca2a09e8532f504df709"
+    },
+    {
+      "path": "gradle/libs.versions.toml",
+      "category": "context",
+      "language": "TOML",
+      "byte_size": 4727,
+      "line_count": 67,
+      "sha256": "dafe00f3655db71c3de42b45b8eb24b8b2218615fb628ad71cd820c8aacd6403"
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.properties",
+      "category": "context",
+      "language": "Properties",
+      "byte_size": 202,
+      "line_count": 5,
+      "sha256": "9ef3efa066075f968d225277bf5fd0e2dd35243fdba852c068b87ceea78236b5"
+    },
+    {
+      "path": "settings.gradle.kts",
+      "category": "context",
+      "language": "Kotlin Script",
+      "byte_size": 322,
+      "line_count": 17,
+      "sha256": "e9f44338b0c76f9a926383dfdbf46a795dc851743e1f827a9ec5a2387f86bae1"
+    },
+    {
+      "path": "sql/sakila-schema-modified.sql",
+      "category": "source",
+      "language": "SQL",
+      "byte_size": 29006,
+      "line_count": 790,
+      "sha256": "67a62240a33d0631f5fd0863dbbe7b6937f6b50e3874e9093efa507cb45d83e6"
+    },
+    {
+      "path": "src/main/java/com/example/app/SpringRestSakilaApplication.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 338,
+      "line_count": 11,
+      "sha256": "b711ff7f13cf350c47c74f31660595953ae9c568e39d5988ce8dd344e855d2f0"
+    },
+    {
+      "path": "src/main/java/com/example/app/common/constant/Category.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 2482,
+      "line_count": 61,
+      "sha256": "6a857f61247b38dce21138eb63a167e5495f95b760530826749ad2d97b868c59"
+    },
+    {
+      "path": "src/main/java/com/example/app/common/constant/Country.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 12320,
+      "line_count": 263,
+      "sha256": "e8145e7994935a80b7f649397263fb046aa92ac9b287e02e4206359e934f410a"
+    },
+    {
+      "path": "src/main/java/com/example/app/common/constant/ErrorCode.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 776,
+      "line_count": 19,
+      "sha256": "1ca2910b6735a9969471ed2398a934beaf8342f983a66337050473e6efca96d0"
+    },
+    {
+      "path": "src/main/java/com/example/app/common/constant/ErrorLevel.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 291,
+      "line_count": 15,
+      "sha256": "8fe0c8ce3f810ae35e6f0ce97deaa899a1c035403ada82f2064cddd8145d1899"
+    },
+    {
+      "path": "src/main/java/com/example/app/common/constant/FilmRating.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 986,
+      "line_count": 34,
+      "sha256": "6308de7668a6b36995d5a08a02f11b7da44a2bdcdcc5bd97838d28f4569e3caa"
+    },
+    {
+      "path": "src/main/java/com/example/app/common/constant/HalRelation.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1086,
+      "line_count": 50,
+      "sha256": "f2bfee7705c318a0d598b322e6422d2db69366be7082d8f71a7ebf82098bdee1"
+    },
+    {
+      "path": "src/main/java/com/example/app/common/constant/Language.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1382,
+      "line_count": 39,
+      "sha256": "2606a2ba4ad42099f149056ebf208d6285779a9659f1be877871b845a221ee0a"
+    },
+    {
+      "path": "src/main/java/com/example/app/common/constant/SpecialFeature.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1020,
+      "line_count": 30,
+      "sha256": "85ed7492d0d80d028546fbe90506c45650f41ed43b794d9b21ae4d07e0ef4e49"
+    },
+    {
+      "path": "src/main/java/com/example/app/common/domain/dto/ErrorResponseDto.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 434,
+      "line_count": 12,
+      "sha256": "89f484b0444e5b0e32c50333ac83ee77999f981eb1669035ba45fef1deb26284"
+    },
+    {
+      "path": "src/main/java/com/example/app/common/domain/dto/FullName.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 506,
+      "line_count": 23,
+      "sha256": "33a1263757af6297b7b1b8808e4b5969bcce6d7f5079d70961a2218ec1a825f0"
+    },
+    {
+      "path": "src/main/java/com/example/app/common/domain/dto/NullCheckable.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 111,
+      "line_count": 5,
+      "sha256": "80541b68bf4e2519753bfc73783feba99b9f0f9143748e17b53d0b4854223c62"
+    },
+    {
+      "path": "src/main/java/com/example/app/common/domain/dto/Updatable.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 102,
+      "line_count": 5,
+      "sha256": "6632bc217a9343cacba0e26da44a42d1ca90411c75705a94398d23f4ff382ebd"
+    },
+    {
+      "path": "src/main/java/com/example/app/common/domain/entity/FullName.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 693,
+      "line_count": 28,
+      "sha256": "e468fc11e39ce813645d11b697f16ab6c6e71721eae823596f49f3f74b61e0e9"
+    },
+    {
+      "path": "src/main/java/com/example/app/common/domain/mapper/DoMapping.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 347,
+      "line_count": 14,
+      "sha256": "86fd4799405858d401d07b99bb14771fcc508e7124718ba6971fab41e328baa1"
+    },
+    {
+      "path": "src/main/java/com/example/app/common/domain/mapper/FullNameMapper.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 265,
+      "line_count": 9,
+      "sha256": "96f933e31f3e7026d7e58da1c21ec4f2b6eabd6ad70f4bb2da676464174558c8"
+    },
+    {
+      "path": "src/main/java/com/example/app/common/domain/mapper/GenericMapper.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 356,
+      "line_count": 17,
+      "sha256": "0fe39c273b21a3a21f5e7e677e23b87ced5d34132a586156f03eedc886609e26"
+    },
+    {
+      "path": "src/main/java/com/example/app/common/domain/serializer/NullToEmptyStringSerializer.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1719,
+      "line_count": 52,
+      "sha256": "d9be058025196f42c59cba7e7a1955dff087e5e25db04cc3d3fbbe6592f138bb"
+    },
+    {
+      "path": "src/main/java/com/example/app/common/exception/GlobalExceptionHandler.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1652,
+      "line_count": 37,
+      "sha256": "bdf200a3cdf92c07af417d323fd23e409b9428ea60b53062aa1bc8af052d8a3c"
+    },
+    {
+      "path": "src/main/java/com/example/app/common/exception/ResourceNotAvailableException.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 204,
+      "line_count": 7,
+      "sha256": "f34cd684db93d184f640ecf4c57b9d33017e004c98f9d7f1257d64f0ab0ad6b0"
+    },
+    {
+      "path": "src/main/java/com/example/app/common/exception/ResourceNotFoundException.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 196,
+      "line_count": 7,
+      "sha256": "eb5ca0e047404192c278f6367fe6fe3ff23962201af44d6513fbe7274155897b"
+    },
+    {
+      "path": "src/main/java/com/example/app/common/filter/MdcLoggingFilter.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 702,
+      "line_count": 21,
+      "sha256": "c20d0d3d70245b2c34e0115115a2bf7fe9eaf3c2943090add653050270f54cc7"
+    },
+    {
+      "path": "src/main/java/com/example/app/common/security/JwtAuthenticationFilter.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1549,
+      "line_count": 37,
+      "sha256": "a0b14805ec534f23c9c23bd48a58233b7b705252abd202cf5d19619f82a172e8"
+    },
+    {
+      "path": "src/main/java/com/example/app/common/security/JwtAuthenticationProvider.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1639,
+      "line_count": 42,
+      "sha256": "d9f2c8e2b8c11b762f86b358dc841077bdab7ee72c06baeea1f1a5edf9b6e6f5"
+    },
+    {
+      "path": "src/main/java/com/example/app/common/security/JwtAuthenticationToken.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 962,
+      "line_count": 36,
+      "sha256": "2acd985d6e0eaa42d7cf856081d5ab6a39a16f48d0a6f6dd514fb68d3055bf7d"
+    },
+    {
+      "path": "src/main/java/com/example/app/common/security/JwtTokenProvider.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1515,
+      "line_count": 48,
+      "sha256": "3032e27b1335cf6c0a5b29e34065e66a774bb5c07ff03dd4dcf6080e068f127e"
+    },
+    {
+      "path": "src/main/java/com/example/app/common/util/ExpressionUtils.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1998,
+      "line_count": 52,
+      "sha256": "9acb8e3ef3efcdc42a6a66076ee323bb64d643f53ece5935bd84becedaa24ea7"
+    },
+    {
+      "path": "src/main/java/com/example/app/config/AuthConfig.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 922,
+      "line_count": 26,
+      "sha256": "a852a413ef83c0a14338a7d2421875d2f6bed40a515497f00f63aa2ca11e056a"
+    },
+    {
+      "path": "src/main/java/com/example/app/config/LoggingFilterConfig.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 937,
+      "line_count": 28,
+      "sha256": "2e8c940de1949dbfbf517d1662dbaaccba195f70b42f8e43c2a412968cd93861"
+    },
+    {
+      "path": "src/main/java/com/example/app/config/PersistenceConfig.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 2940,
+      "line_count": 77,
+      "sha256": "116bc405df57b689cb17737ee5dbfc3f64b4546a47f4d5c13b6bce31660e4de8"
+    },
+    {
+      "path": "src/main/java/com/example/app/config/RedisConfig.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 2775,
+      "line_count": 58,
+      "sha256": "85d4c684be44079409437f4a3b0f9f55201cde0a3ad3973296b94424464c41d2"
+    },
+    {
+      "path": "src/main/java/com/example/app/config/SecurityFilterConfig.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1395,
+      "line_count": 31,
+      "sha256": "5804f7ffc668c5fe2c439385865b54bfaad9c63bd8c65a045fee2745eb6251a3"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/auth/controller/LoginController.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1421,
+      "line_count": 33,
+      "sha256": "b892c0b69317c944593b5eed5e988417c4cf612c302376b0d3a49b6b606e1d2d"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/auth/domain/converter/UserRoleConverter.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1066,
+      "line_count": 32,
+      "sha256": "ab8fcf1337a7dbd87a69605c2a9e92bca4ffd6eccc9555b4438a24d9e263d3a4"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/auth/domain/dto/AuthorityDto.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 2637,
+      "line_count": 100,
+      "sha256": "8edcb6399ca4c0c6ae9829318ca0bb6d404f2090c3e62c095fa6b70576e21d49"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/auth/domain/entity/AuthorityEntity.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 2068,
+      "line_count": 64,
+      "sha256": "56c820c5a16d5d0d95a5317f23cb16400312affef5a692b12c93bf102e1401ba"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/auth/domain/vo/UserRole.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1053,
+      "line_count": 31,
+      "sha256": "957613978834940628d182840d160e811f5ae640f82d960d9e74e1a44f2ed0bc"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/auth/repository/AuthorityRepository.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 395,
+      "line_count": 10,
+      "sha256": "ce37cabf353ad20127fcd10b0560ed859c6c5cf8a4dcbfd03f3cde5e9630069d"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/auth/service/JpaUserDetailsService.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1586,
+      "line_count": 38,
+      "sha256": "7ace6e4b5b4cd1a064be9bae7deaf17a8e6c50dbe7cfe533ba10bea8a717681f"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/auth/service/SecurityService.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 694,
+      "line_count": 18,
+      "sha256": "65fb6d4710848713eca7359fe63a5f57d2b9d7ff4b12e40c7429ac3bf9f45553"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/catalog/assembler/ActorDetailsRepresentationModelAssembler.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1934,
+      "line_count": 42,
+      "sha256": "6d83a4cea45903098a4e17953f4afaa77fe13c21e85b45bf3813b6927e9f008b"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/catalog/assembler/ActorRepresentationModelAssembler.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 2867,
+      "line_count": 52,
+      "sha256": "4f0c08b85547751bca0a1b1741122df213985dc3b263d5c6a1952c6f9c601855"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/catalog/assembler/FilmDetailsRepresentationModelAssembler.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1631,
+      "line_count": 34,
+      "sha256": "79b988b502cd34a418d83c4469cf96a6ae350cd941618a51dcfc3088e242703f"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/catalog/assembler/FilmRepresentationModelAssembler.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1850,
+      "line_count": 43,
+      "sha256": "4d2f2b62ec40876b62534338e103aca8ab9edb6e17b569a9e2913f23f6e77ed3"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/catalog/controller/ActorController.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 9079,
+      "line_count": 167,
+      "sha256": "6c676dc901bb79af596b77148dc184ffe8dc37b40b11e8ab8eb6a2c80c9e56e1"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/catalog/controller/FilmController.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 5461,
+      "line_count": 113,
+      "sha256": "a6ae67a73b3ef833ac291fe34e2191981d4204e28b39986f0102591a160b68ec"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/catalog/domain/converter/CategoryConverter.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 720,
+      "line_count": 24,
+      "sha256": "8de6f5c869494ab5d3ff535ed53c5ac96d898d07e3ecc7131b218a6b1a4093a6"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/catalog/domain/converter/FilmRatingConverter.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 737,
+      "line_count": 24,
+      "sha256": "c67ec6ea39dd00b7288f4582600e1d1ab2d1af4754893711d9fd31071648ed60"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/catalog/domain/converter/SpecialFeatureConverter.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1065,
+      "line_count": 32,
+      "sha256": "10336a028bbd7afc79dfbed667825f2e7bf6054cd50083b641837b4acce9853a"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/catalog/domain/dto/ActorDetailsDto.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 2861,
+      "line_count": 95,
+      "sha256": "a82bc8cc08723be3e7b225e94cbada012485dc3b2626d1571fd32df7944af1fb"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/catalog/domain/dto/ActorDto.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 3393,
+      "line_count": 112,
+      "sha256": "a91ed777df019babbeb78259a705628c2553751c23da36129f7e1068fb704b80"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/catalog/domain/dto/CategoryDto.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1467,
+      "line_count": 48,
+      "sha256": "cf540724c87c2d4dd24c7314e0f8f075facf929130abd270bb1582d650d9bf5f"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/catalog/domain/dto/FilmDetailsDto.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 3886,
+      "line_count": 131,
+      "sha256": "0577ca2d95a1b6a3dd70f6d7a196441d94592f764bddcd135a8853641f853850"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/catalog/domain/dto/FilmDto.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 12134,
+      "line_count": 379,
+      "sha256": "3443e7113a7b3ba7bf303a2e6b2d3c953b5795d8ec154b88d29dba5f774006e2"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/catalog/domain/entity/ActorEntity.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1959,
+      "line_count": 64,
+      "sha256": "c0cb4ede491f88a894cf94f49defb96810cfb6d88d96e0bfcc2e88c4837b2acd"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/catalog/domain/entity/CategoryEntity.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 2132,
+      "line_count": 68,
+      "sha256": "cae4591aacf322310a3fe848485b657bddda5da3b96e95b9abd45650d28ed37a"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/catalog/domain/entity/FilmActorEntity.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 2594,
+      "line_count": 82,
+      "sha256": "66a0cec4272872b7e2b1940baf63b8b80cf594485f75d9afc1b782192babbe9d"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/catalog/domain/entity/FilmActorEntityPK.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1384,
+      "line_count": 43,
+      "sha256": "7ef76ea639eda3025aa26be10deab7c1d9aae4384d00eead5551ae8912aab3ca"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/catalog/domain/entity/FilmCategoryEntity.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 2700,
+      "line_count": 82,
+      "sha256": "828afc02ca36a7046af95eff7aeeb8ddcdda558bcb64898854042e0f7204be8e"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/catalog/domain/entity/FilmCategoryEntityPK.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1360,
+      "line_count": 40,
+      "sha256": "1b00c0dda71ea924791bb735d245bff5b79ee09fd1f13166c224cadfed6c811a"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/catalog/domain/entity/FilmEntity.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 6442,
+      "line_count": 171,
+      "sha256": "8cb5821d36cc551f9ed4b8e0366372d8fb53e1df13be3d1de1ce85d5b7215257"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/catalog/domain/entity/FilmTextEntity.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1883,
+      "line_count": 62,
+      "sha256": "82642f735c125cd66f416330cc63e3d16ee7518a6d460675f0e4d9c29c4ec06e"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/catalog/domain/mapper/ActorMapper.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1066,
+      "line_count": 24,
+      "sha256": "27a99ac232a637143eb99492737bf3171d328601a5398aa22931f1661160b127"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/catalog/domain/mapper/FilmMapper.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 982,
+      "line_count": 23,
+      "sha256": "b34e0e5b1e414c0ea152882943de87e65bb13c0df96cf30275f3faccd64c5459"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/catalog/domain/serializer/LocalDateYearSerializer.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 2730,
+      "line_count": 68,
+      "sha256": "39c2b5473d6fea772767c67788c78ffea8b4a41ed4813bffeb4bd1bafcad2778"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/catalog/repository/ActorRepository.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 584,
+      "line_count": 13,
+      "sha256": "0e3a82f00636931f6a874954b865a4550a34828b85ebdf4a1b50d81f85d27b5d"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/catalog/repository/CategoryRepository.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 446,
+      "line_count": 10,
+      "sha256": "49b9f045adef5afdae74b91b15ab51948a0a3f2efaab907416d2fc56a41de776"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/catalog/repository/FilmActorRepository.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 451,
+      "line_count": 10,
+      "sha256": "59f071eb999232d8448324e13a666107ba2bd2f60167cb81baaa7d4ea165fbab"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/catalog/repository/FilmCategoryRepository.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 466,
+      "line_count": 10,
+      "sha256": "721fc98b5d5b3bce6e6878136dbed3ed9cb80dae05bb2700d22f4b9813d44888"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/catalog/repository/FilmRepository.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 571,
+      "line_count": 12,
+      "sha256": "f37505fb36cfbf37fedc0966cd937245ef6ced78d71e298bfa293709c1e49e9a"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/catalog/repository/FilmTextRepository.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 446,
+      "line_count": 10,
+      "sha256": "024515ceb2a1091e39d6b9f1e9f1409ec580aa2c1354eb8853c42e340d6f1508"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/catalog/repository/custom/CustomActorRepository.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 996,
+      "line_count": 25,
+      "sha256": "881d1d25bbf37aad9d05ca42490c64d2552df7b54673e678aa2600ba31d5ab74"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/catalog/repository/custom/CustomActorRepositoryImpl.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 6983,
+      "line_count": 141,
+      "sha256": "423a1ca43fa866d55c5b58acd07111753bf9a3e0d3a453a8ce031312c47e4998"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/catalog/repository/custom/CustomCategoryRepository.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 107,
+      "line_count": 4,
+      "sha256": "2758b1c059e7a2aad3e404e93782b44619f6ed50237a5c4d424f67ab36cb8925"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/catalog/repository/custom/CustomCategoryRepositoryImpl.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 270,
+      "line_count": 9,
+      "sha256": "ad57410affd382f9ada3275a33acf6fa4c6e5056a2b09f5d01fc8b477bb143b3"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/catalog/repository/custom/CustomFilmActorRepository.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 108,
+      "line_count": 4,
+      "sha256": "6e9f6fd1daaa55f7b56af3ff8ebb1db8d4e94c82a1a98bddcb64007ee4549aa6"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/catalog/repository/custom/CustomFilmActorRepositoryImpl.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 272,
+      "line_count": 9,
+      "sha256": "424174e77bce4a7b690739116ca868e29a80d33d681fb1991e281b59e8ae98e3"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/catalog/repository/custom/CustomFilmCategoryRepository.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 111,
+      "line_count": 4,
+      "sha256": "de2586a6ab4091b77f10b8c23cad607f44ee0847ff82a255060ac15135fb7f95"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/catalog/repository/custom/CustomFilmCategoryRepositoryImpl.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 278,
+      "line_count": 9,
+      "sha256": "6d339bbfc7c0b7184f80525511a0cc4255fc22b37bc837655c963649335307c0"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/catalog/repository/custom/CustomFilmRepository.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 864,
+      "line_count": 23,
+      "sha256": "b1a2f3f413a12e521dd4364a8477c679ce7e28c32f152cddb31a66fd55b7ac0e"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/catalog/repository/custom/CustomFilmRepositoryImpl.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 6127,
+      "line_count": 126,
+      "sha256": "7e96ec02906fe273000d37ffad2f7406326bf1f10cdfd8ebb795c8d5af3eee2d"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/catalog/repository/custom/CustomFilmTextRepository.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 107,
+      "line_count": 4,
+      "sha256": "8a50e9a80a66b167b090fd23dd4f7ca920ed783bbeb6ff957b3619d09fa78c1f"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/catalog/repository/custom/CustomFilmTextRepositoryImpl.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 270,
+      "line_count": 9,
+      "sha256": "298fca4ef985c96ef6e1e413d39618e21a810833b0da60b3a3d4fcd57f23f160"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/catalog/repository/custom/RentalRateProjection.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 165,
+      "line_count": 7,
+      "sha256": "a757bd14abba229946fd23008d6e519a8452fe3631139c799c7e8c11b1f44999"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/catalog/service/ActorService.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1338,
+      "line_count": 38,
+      "sha256": "39a34381ca732b5211cb4059cde7e73bfbdb28e006a603b0b6023cf660c44116"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/catalog/service/ActorServiceImpl.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 5135,
+      "line_count": 131,
+      "sha256": "6d4f66dc281e50ce68bb78f9abcf0f5ad1550777e14b1af3c6389bb22b3200a5"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/catalog/service/FilmService.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1088,
+      "line_count": 34,
+      "sha256": "85eb1ef1725a3fb6dfd769b72aede4c33dc7ed3bc3a4975acfb00cb30c933286"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/catalog/service/FilmServiceImpl.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 4384,
+      "line_count": 116,
+      "sha256": "3c501f0130fd0952b0ac0c6da4f7d833cc6d23591895d5b9779c868124d3fd20"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/customer/assembler/CustomerDetailsRepresentationModelAssembler.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1713,
+      "line_count": 34,
+      "sha256": "c2b2d71406c91c97fad218c49072e5eca8df4cc832544b9f207c66916b048393"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/customer/assembler/CustomerRepresentationModelAssembler.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1450,
+      "line_count": 32,
+      "sha256": "7196fbee725f38ab860cbcd6fc247ca2fa144a8e530a7fe5e476baa772586642"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/customer/controller/CustomerController.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 5431,
+      "line_count": 107,
+      "sha256": "27384cd7bc6220953618b06f504109a8040b8708b5c38f0889d16f048ea0dda6"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/customer/domain/dto/CustomerDetailsDto.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 3902,
+      "line_count": 134,
+      "sha256": "1387915abdcef300e89a6be0760bed3def947b29af6ed20825117b22accd627a"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/customer/domain/dto/CustomerDto.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 5412,
+      "line_count": 166,
+      "sha256": "58cf8f10790f9110469306297bedb21a6931ddbe18ea856f6b62f3fec26a6e07"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/customer/domain/entity/CustomerEntity.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 4453,
+      "line_count": 126,
+      "sha256": "1315ba1f7fe24d3eebf7e447db6b53d4527bf21c9dfa1e5545ec8ac02dba0cb5"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/customer/domain/mapper/CustomerMapper.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1312,
+      "line_count": 28,
+      "sha256": "bc5535f38634cc500a195a45807bac69164b92f4f16d664cb30b3cac313136b0"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/customer/repository/CustomerRepository.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 449,
+      "line_count": 10,
+      "sha256": "a19e8b61564dc63997ec780d81af5997382211a864662af45ddcd8b511d6a6ec"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/customer/repository/custom/CustomCustomerRepository.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 905,
+      "line_count": 20,
+      "sha256": "2c940a5a743acef6131ef039adfab83afc0175d2bfbc706faa9c5a853214e706"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/customer/repository/custom/CustomCustomerRepositoryImpl.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 5498,
+      "line_count": 101,
+      "sha256": "8760c285a4a4f996b3d053afb179d1ba06b1d1917e709dfc26ca8073c83695ef"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/customer/service/CustomerService.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1263,
+      "line_count": 31,
+      "sha256": "236ede57701db9bf4fb346dcdffeb81c72a77daec96acc2d334e27ab3667ce27"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/customer/service/CustomerServiceImpl.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 3829,
+      "line_count": 92,
+      "sha256": "3230ee6dec37cfa7eea4fe0037e004d0cc03e0132ddb9078fd07cb01d4e94858"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/location/assembler/AddressRepresentationModelAssembler.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1906,
+      "line_count": 43,
+      "sha256": "17085c978cb1ae9f573b686e39f3da677e820cca0e9578a6f71a08616183ac2b"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/location/assembler/CityRepresentationModelAssembler.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1384,
+      "line_count": 32,
+      "sha256": "35ab22dd90dde96321c9fa01fbb4b6f08368a841f4c255ea1b0eeffee363399e"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/location/controller/LocationController.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 5412,
+      "line_count": 117,
+      "sha256": "2fe84f8e5a0e541c1af785e2e612c861461c0630c1aa7be82aa0ec4c91cff8b0"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/location/domain/converter/CountryConverter.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 715,
+      "line_count": 24,
+      "sha256": "a82fd7674d169e024bb8984bfc0fc620b958c6e6c80cc09b89898b25d5709c76"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/location/domain/converter/GeometryConverter.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1182,
+      "line_count": 34,
+      "sha256": "ef664c56b759b8501e89c9fe5a48668e3673f0fb379c65249d41d0df5fb3c9c0"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/location/domain/converter/LanguageConverter.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 726,
+      "line_count": 25,
+      "sha256": "75f5eb82366d4b05444ce997654ceed17970f40e33724dcd5789517ee02deed9"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/location/domain/dto/AddressDto.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 5778,
+      "line_count": 175,
+      "sha256": "eb3dca7bbba32e7aeb3832b3e7b0f69a05ecd4ec2a683828d8577a2358e91cfe"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/location/domain/dto/CityDto.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 3609,
+      "line_count": 123,
+      "sha256": "a8e2eabd85a3d95045421bac84e636cdb6302b859b24522045c3fc59c6377ac8"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/location/domain/dto/CountryDto.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1459,
+      "line_count": 48,
+      "sha256": "9d30f03d9b3a38570b7d00440fd5e8feb769b02b393bc58492ffd64855457188"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/location/domain/dto/LanguageDto.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1302,
+      "line_count": 45,
+      "sha256": "a61432e80716642da3fde308f3555dbb4f9fa21f6f9e236834087f62cabb78b6"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/location/domain/entity/AddressEntity.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 4026,
+      "line_count": 122,
+      "sha256": "29f80c9704b770c4016b9488cc0d17a83af2dd29dc65336ae7f5ef4b9728fb01"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/location/domain/entity/CityEntity.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 2669,
+      "line_count": 84,
+      "sha256": "7158b9c33bee8b1938c6888694c6128df8d1af254dbebe1fb41a172afd99cb2d"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/location/domain/entity/CountryEntity.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 2140,
+      "line_count": 68,
+      "sha256": "664e55429300c833195eaca7988209d02a22de2b4bf69f9e8a663404a99dffe3"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/location/domain/entity/LanguageEntity.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 2165,
+      "line_count": 68,
+      "sha256": "22dafe76362e7647e8d32d2724d103ae753a9f0889f6eb768c6efe4f919fcec2"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/location/domain/mapper/AddressMapper.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 870,
+      "line_count": 21,
+      "sha256": "8cd6733e797b3a1a0242b029bd4b98b07b123b1ecee1048884bbed2d7b53b94c"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/location/domain/mapper/CityMapper.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 723,
+      "line_count": 17,
+      "sha256": "1a8e8a5eb30a9d2f1438e6d52f81b0c25e2cf93acf44108734622c8ca8b71923"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/location/repository/AddressRepository.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 444,
+      "line_count": 10,
+      "sha256": "69ac213658cc439668ece17352fddd143bf5238ac87e967a58ac765cc6178b10"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/location/repository/CityRepository.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 429,
+      "line_count": 10,
+      "sha256": "a1f37f2c7c57a049d97780bcff4880be9629997dc70b37ce24884549ba933f87"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/location/repository/CountryRepository.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 444,
+      "line_count": 10,
+      "sha256": "d941e375f0414462442aa1a0e86e1e8f43aeea205efdb7c211b608a7d4600e39"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/location/repository/LanguageRepository.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 449,
+      "line_count": 10,
+      "sha256": "48ad3881446699271ecf82afb0c85e0443c2765c0619f72ea16d57068211af49"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/location/repository/custom/CustomAddressRepository.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 358,
+      "line_count": 12,
+      "sha256": "d10e4118ae68d5089bb8875549c7ae1514ada924a281aa54d4c0db16f16e579b"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/location/repository/custom/CustomAddressRepositoryImpl.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 629,
+      "line_count": 22,
+      "sha256": "ec5eca576b14315d1394d5849ed123daac6a9b92a0ae67fe748bb8b9f89207ac"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/location/repository/custom/CustomCityRepository.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 104,
+      "line_count": 4,
+      "sha256": "5c06c515083240f858f93b740af6679861f90758765846458152f5d9e7a07713"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/location/repository/custom/CustomCityRepositoryImpl.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 263,
+      "line_count": 9,
+      "sha256": "a87d77ba363891989f1c84edab2987d61e79d97b56ebb7821b2bd1f9c8155b96"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/location/repository/custom/CustomCountryRepository.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 107,
+      "line_count": 4,
+      "sha256": "8314d965d8d657f8261c1992e12ef27f8f052c08d53b67f03dcc130e25e7a348"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/location/repository/custom/CustomCountryRepositoryImpl.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 269,
+      "line_count": 9,
+      "sha256": "bf859eabd84549fee6c8925ed15fbb362be109fc37598f18c9324b15e207c3a0"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/location/repository/custom/CustomLanguageRepository.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 108,
+      "line_count": 4,
+      "sha256": "f02bd0dd1a4df37de32214f8eccef695df7f82ffbb0660cb671bd6ad4a373fc5"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/location/repository/custom/CustomLanguageRepositoryImpl.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 271,
+      "line_count": 9,
+      "sha256": "776ebfd6a85fc2b2a05ef90e19f58ba1220455a4e31f6e1c6724947cb66fa5a9"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/location/service/LocationService.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1049,
+      "line_count": 34,
+      "sha256": "6802cff525b66e968638618538578a300796428bdbe57788345db5ae4b7dcb68"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/location/service/LocationServiceImpl.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 4363,
+      "line_count": 115,
+      "sha256": "1f05969d9e8b94cefa4d45606dbbee8b1fba9586b8de7311ca6ca49b3e0599aa"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/payment/assembler/PaymentRepresentationModelAssembler.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1425,
+      "line_count": 32,
+      "sha256": "10faa43d806c0c6d4244b953eb305f210ad19803e1b9be35772cd2caaa773242"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/payment/controller/PaymentController.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 2820,
+      "line_count": 63,
+      "sha256": "becd01eed0ac86c6a7c1fa877e38e51160c3f67785cebcdc11e34cf7e37bc332"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/payment/domain/dto/PaymentDto.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 5015,
+      "line_count": 158,
+      "sha256": "8586126b2137201ad12af97f0e0ce39db452a257e1b36b7cfd0edab85d23a8c7"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/payment/domain/entity/PaymentEntity.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 4046,
+      "line_count": 118,
+      "sha256": "d5f9f2100a41d06a28d689dcd27271d02f8584d0e1a4bccdb3e8f97a6b67bde9"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/payment/domain/mapper/PaymentMapper.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 864,
+      "line_count": 19,
+      "sha256": "706bc9d2c743b270d318e0722e903ae81d50fbe2e809ad073d3d22be9c3888f8"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/payment/repository/PaymentRepository.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 441,
+      "line_count": 10,
+      "sha256": "bc4ab79eff63c8761d85ff579491f631b5035d5a3ae0dfa9c244ce2cb7d9844c"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/payment/repository/custom/CustomPaymentRepository.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 618,
+      "line_count": 18,
+      "sha256": "0883710efaaf096f0c2ebd61b5bfadf27e0eb8fce04cf71f348f1e8356417bb2"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/payment/repository/custom/CustomPaymentRepositoryImpl.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 4713,
+      "line_count": 98,
+      "sha256": "64e25faee86ee2042813fc5d36ca38b08fc48e687fb058e527ec80879d46714c"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/payment/service/PaymentService.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 978,
+      "line_count": 27,
+      "sha256": "7604b45b48fb316e87487ccf69c74a0d03ad0fd08b470a68eea94b5d0b98ab10"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/payment/service/PaymentServiceImpl.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 3522,
+      "line_count": 87,
+      "sha256": "e49254a5d07c78459dd29abd62089c4cfbace5fa3a8e851ff563d7bb5eef20ea"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/rental/assembler/RentalRepresentationModelAssembler.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1400,
+      "line_count": 32,
+      "sha256": "20b1702de153e840a548de68f07b38bb1df3fa523813e7f39511dab8c073779d"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/rental/controller/RentalController.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 3471,
+      "line_count": 81,
+      "sha256": "463e99507b3ed31ef72d77636d07d03dcb02cfec32c98b276c1af4d5bad0d70d"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/rental/domain/dto/RentalDto.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 6935,
+      "line_count": 222,
+      "sha256": "112a53979cb0196f3983ed705e62b0730d7a723b3e6033fcef0330952a72912e"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/rental/domain/entity/RentalEntity.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 4261,
+      "line_count": 120,
+      "sha256": "06fefe94ed0d29116d560cd7dd8aa2967708366abf650f49a126cd96510d4530"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/rental/domain/mapper/RentalMapper.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1808,
+      "line_count": 43,
+      "sha256": "4cf181473fc4c8b52c827d431b44b6be494c3b806caa684051924582d848bd40"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/rental/domain/vo/RentalStatus.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 106,
+      "line_count": 6,
+      "sha256": "9e4119c75353f7e43139777706240dbb106a45c79deca18fb0504b75855e818b"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/rental/repository/RentalRepository.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 433,
+      "line_count": 10,
+      "sha256": "3cdcc4d6c7eade5f75032b96c61fa8800638de871acf38fde444cedd209e61de"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/rental/repository/custom/CustomRentalRepository.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 253,
+      "line_count": 7,
+      "sha256": "9b3d7b99a951d7391b381e634ea1fe48a1cc48192c49531b4d12087e5dc43969"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/rental/repository/custom/CustomRentalRepositoryImpl.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 969,
+      "line_count": 25,
+      "sha256": "aba9722ff282c2aa3eaab3127f3ab27d9ead73ea3647851cbdf630f959e728d4"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/rental/service/RentalService.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 776,
+      "line_count": 28,
+      "sha256": "3870a03389d9730a2be6c8bc4ac0db04c94ccd8c68baf8a8397726a5f09eb322"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/rental/service/RentalServiceImpl.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 5952,
+      "line_count": 136,
+      "sha256": "4e68a981aced12d7fe1a9661b5f7798be436ff79079e5112a7f5c961ae13cffc"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/staff/assembler/StaffDetailsRepresentationModelAssembler.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1611,
+      "line_count": 34,
+      "sha256": "2f012625337072148f25d77f55f6e27ed0a9d8d5a5bdec3b480789bfa886f149"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/staff/assembler/StaffRepresentationModelAssembler.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1649,
+      "line_count": 40,
+      "sha256": "6754e16e4fd91aa68368b90a66caf28685a7bdfa244455eae754bc0a50a6cd53"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/staff/controller/StaffController.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 3498,
+      "line_count": 77,
+      "sha256": "65da54736650fdde012c8db69ebee4503f99c9ddef1d10d232ef01974e30659e"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/staff/domain/dto/StaffDetailsDto.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 3626,
+      "line_count": 127,
+      "sha256": "427d2ddf65b2bfdb7828bac3cc899b4f9971a5950c3d160a8c80c0b53a741de8"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/staff/domain/dto/StaffDto.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 6234,
+      "line_count": 186,
+      "sha256": "bf2ac3ff400c06d8e6b8a64163a0c2d5f5ba156965c498a1dfb0017ac90e6e6a"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/staff/domain/entity/StaffEntity.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 4776,
+      "line_count": 138,
+      "sha256": "3427cb7806df2af834c0c065172c6dabd5c8b9cf701a46b70f5b86d188d2e713"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/staff/domain/mapper/StaffMapper.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1213,
+      "line_count": 27,
+      "sha256": "e988d9cc07833ce91f1b91d9ae79097972b883bccdf3042df93066c0c1e74107"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/staff/repository/StaffRepository.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 425,
+      "line_count": 10,
+      "sha256": "395f63fd92747961ef6c97ca3369d0e6988a30b060d54d260e3655abaa004616"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/staff/repository/custom/CustomStaffRepository.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 369,
+      "line_count": 12,
+      "sha256": "a237d96a7765ff684334dcde31815c63de4f639c49b39e01dd0d3a5e817435ff"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/staff/repository/custom/CustomStaffRepositoryImpl.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 2379,
+      "line_count": 57,
+      "sha256": "42d3ed7eda8e03ef7a36187583d2718e2bfb87c0864265e0c7f620dbdcc1961c"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/staff/service/StaffService.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 743,
+      "line_count": 24,
+      "sha256": "a40b28651e8d916abbe07ac1f11fb32cf78d264f985e041e3853855f00c92aa2"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/staff/service/StaffServiceImpl.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 2720,
+      "line_count": 74,
+      "sha256": "6720fe758c615a44f48e7434a8815190788e67a576bb7c3db10aec96dc594ce2"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/store/assembler/CategorySalesRepresentationModelAssembler.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1804,
+      "line_count": 40,
+      "sha256": "c91023e4c56e19e26855a1b1bcefb236735df6ed0e7954c652a9caa2fe420c5d"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/store/assembler/StoreDetailsRepresentationModelAssembler.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1611,
+      "line_count": 34,
+      "sha256": "ff571668737274705dad6c2cb54887c09b5bbe687db1afa405e2a3f39ef175d4"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/store/assembler/StoreRepresentationModelAssembler.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1375,
+      "line_count": 32,
+      "sha256": "845b56151646094770c4d4c8e24cef2b63c45dae93685d578aad45fd4acec816"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/store/assembler/StoreSalesRepresentationModelAssembler.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1753,
+      "line_count": 40,
+      "sha256": "ef194f4a8cbd2adbc70c688ab45a40a35b1acdcc018d17c30bd4d5523cb3e56c"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/store/controller/ReportController.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1843,
+      "line_count": 38,
+      "sha256": "0908ea743c2573b784e6130cb6338bd0bbc221fa9e681fceeddc7b42a678cab4"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/store/controller/StoreController.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 5700,
+      "line_count": 121,
+      "sha256": "37e01a9abcf24c6bad721445852000eb13d8473d312f80f97941c95c62b4faa3"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/store/domain/dto/CategorySalesDto.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 2664,
+      "line_count": 86,
+      "sha256": "1edc5b21a88d33e6e6d89eb9694e11985181a1d5379023e390021fd392727987"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/store/domain/dto/InventoryDto.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1747,
+      "line_count": 59,
+      "sha256": "786c0c8ca043140e6e70646e12657624e4524168eab2100d3d301dcfe29d1f4c"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/store/domain/dto/StoreDetailsDto.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 2440,
+      "line_count": 80,
+      "sha256": "4b1cd5491d2a4aa11688e6d228670059bf784c575164ddced65184acc2c68089"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/store/domain/dto/StoreDto.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 3875,
+      "line_count": 126,
+      "sha256": "78990e8d2e8be6aa2ff6a56a1cb1783f80924554faec03cb3e9b64634bdfc0ad"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/store/domain/dto/StoreSalesDto.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 2575,
+      "line_count": 89,
+      "sha256": "d6d0da7c82c873ad6859ae34f8561d93883fc3be6eead4620a8e8fca11874861"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/store/domain/entity/InventoryEntity.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 2893,
+      "line_count": 88,
+      "sha256": "9e3f66b7081da33cfd3ef69d9ec788ab92d8473624ad3c83cfe3212a71f4b896"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/store/domain/entity/StoreEntity.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 3016,
+      "line_count": 89,
+      "sha256": "7901923e1daf6e6e37d280459837603ffd1d2a3ddb8499a4b0feefb6870b8c8e"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/store/domain/mapper/InventoryMapper.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 624,
+      "line_count": 15,
+      "sha256": "e7b33d2af3e3cbeddfc3f627615d12e158af43e2d2494f8458788caa9a3a57b2"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/store/domain/mapper/StoreMapper.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 786,
+      "line_count": 18,
+      "sha256": "2ba315e8808ed78eb1de7c81eb0804033fc7b253213cb50f50e720ce816585be"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/store/repository/InventoryRepository.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 615,
+      "line_count": 15,
+      "sha256": "0fb9953dd3d8fe3f0ca0b821818322fc426728b31cc4cb3661933160ad5bce3b"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/store/repository/StoreRepository.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 425,
+      "line_count": 10,
+      "sha256": "89a18d91394705777c9faec4a046de81b1602c5119dcecf3a1f8c18529cfeda1"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/store/repository/custom/CustomInventoryRepository.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 106,
+      "line_count": 4,
+      "sha256": "bd44783eccfbce4ce65727d24c7f371f3792c3d1f235796c89acd9ebe2c62bca"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/store/repository/custom/CustomInventoryRepositoryImpl.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 270,
+      "line_count": 9,
+      "sha256": "d3799783154724251ff4fa6173aee88f1d744459486c6892838b833de101560b"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/store/repository/custom/CustomStoreRepository.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 578,
+      "line_count": 17,
+      "sha256": "0f9b4c0b99ebd6b41f5eb94ac7832bc271f9ad9f0789f8ca28962b2d8c403d02"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/store/repository/custom/CustomStoreRepositoryImpl.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 4358,
+      "line_count": 101,
+      "sha256": "8c04af40d85963112bb9eafdc35300a523117ae6e426a31a7a4cdda6bfa149dd"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/store/service/ReportService.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 365,
+      "line_count": 13,
+      "sha256": "1ed0738f377c8a790be559150463fe0e0bcd7a233c801fdddfafa4f626383e49"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/store/service/ReportServiceImpl.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 947,
+      "line_count": 28,
+      "sha256": "6e0ee9d78ef730ba07254a2762bf66077a92deaf7e9f8acd06f538ad1b94c3ad"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/store/service/StoreService.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1297,
+      "line_count": 38,
+      "sha256": "fb5684a1552b15b97fbac07e3fa387ba088976726d304e0c1c0afa5ea80d0efb"
+    },
+    {
+      "path": "src/main/java/com/example/app/services/store/service/StoreServiceImpl.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 4338,
+      "line_count": 120,
+      "sha256": "4233fdac0ed8acaed187355a88ee7e903b252b2fbf43760c6e1c15e383d4f86c"
+    },
+    {
+      "path": "src/main/resources/application.yaml",
+      "category": "context",
+      "language": "YAML",
+      "byte_size": 1397,
+      "line_count": 64,
+      "sha256": "a1a71cbc53bbc428a2cf7e45babdc65f99e478214e8fa58818138ae84437bf14"
+    },
+    {
+      "path": "src/main/resources/messages.properties",
+      "category": "context",
+      "language": "Properties",
+      "byte_size": 0,
+      "line_count": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/main/resources/messages_en.properties",
+      "category": "context",
+      "language": "Properties",
+      "byte_size": 5702,
+      "line_count": 103,
+      "sha256": "274cc169539914bd44ace5a1f62f88ae00498b6c97e59be125a094ac875b3fc3"
+    },
+    {
+      "path": "src/main/resources/messages_ko.properties",
+      "category": "context",
+      "language": "Properties",
+      "byte_size": 5780,
+      "line_count": 103,
+      "sha256": "7b4577ff97880fb845bdba6f1e3e1c484ab7f900a0380f25b8498d3c4a8c5966"
+    },
+    {
+      "path": "src/test/java/com/example/app/config/PropertyConfig.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 310,
+      "line_count": 9,
+      "sha256": "d652a4ed6ee55c39bee6c26656cf2935cab9fffac387220ce03560a9deb301d7"
+    },
+    {
+      "path": "src/test/java/com/example/app/config/RestDocsControllerSupport.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 2957,
+      "line_count": 66,
+      "sha256": "052989c58d7f6c2902672624e90e2661c4663206b1faaf51b3b757143254e66f"
+    },
+    {
+      "path": "src/test/java/com/example/app/config/properties/AppUriPropConfig.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 424,
+      "line_count": 16,
+      "sha256": "c035f8f788fad8ae9e67ba1af6445afeb12dde95953734ebd990f3a0d2bd2720"
+    },
+    {
+      "path": "src/test/java/com/example/app/services/catalog/controller/ActorControllerTest.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 50961,
+      "line_count": 783,
+      "sha256": "8ea0bd6d27843522ce7bdd0c656d5e914e590bc185ad30398bc90d519e7c7d1c"
+    },
+    {
+      "path": "src/test/java/com/example/app/services/catalog/domain/converter/CategoryConverterTest.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1526,
+      "line_count": 57,
+      "sha256": "adc6a0a5f0d51d5947c2d10cf86f79cdc868494cb7673fb3cb4d7db8b4090e9a"
+    },
+    {
+      "path": "src/test/java/com/example/app/services/catalog/domain/converter/FilmRatingConverterTest.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1559,
+      "line_count": 57,
+      "sha256": "fcbffe9a823b7e6378568a94a35a2ae6b7cc636572e3397ee55a800c2c41a211"
+    },
+    {
+      "path": "src/test/java/com/example/app/services/catalog/domain/converter/SpecialFeatureConverterTest.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1804,
+      "line_count": 59,
+      "sha256": "37c8846c311b931864989e5909b8441b39088862419fc895e21b1491ac2bd130"
+    },
+    {
+      "path": "src/test/java/com/example/app/services/location/domain/converter/CountryConverterTest.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1523,
+      "line_count": 57,
+      "sha256": "64eecf650e92d304c0036b1a8870aee41d591aaee4728f1473906608b6492150"
+    },
+    {
+      "path": "src/test/java/com/example/app/services/location/domain/converter/LanguageConverterTest.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1526,
+      "line_count": 57,
+      "sha256": "8cf38b93d6ad09a5d7f57ed1e186886610d0346cc657d11aff3713b47926e4a2"
+    },
+    {
+      "path": "src/test/java/com/example/app/util/ConstrainedFieldAttribute.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 829,
+      "line_count": 22,
+      "sha256": "9b5912ddd87a98d87a51f99ee2ff89ec2549baedb3c8f2d65021dbcbf633ce40"
+    },
+    {
+      "path": "src/test/java/com/example/app/util/ConstrainedFieldDocumentation.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1891,
+      "line_count": 45,
+      "sha256": "6b802583362a9d838009891f5d5af6f08e43e6b95cf4e247eb86d5f42c1411ab"
+    },
+    {
+      "path": "src/test/java/com/example/app/util/OpenApiDescriptorTransformer.java",
+      "category": "source",
+      "language": "Java",
+      "byte_size": 1075,
+      "line_count": 26,
+      "sha256": "2c3d8228310079edc196ad6cdf3b47ea01fc60c2e82d2bceb6f4223498d4a17d"
+    }
+  ]
+}

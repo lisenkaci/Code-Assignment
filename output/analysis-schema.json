@@ -1,0 +1,608 @@
+{
+  "$defs": {
+    "AnalysisMetadata": {
+      "additionalProperties": false,
+      "properties": {
+        "schema_version": {
+          "const": "1.1",
+          "default": "1.1",
+          "title": "Schema Version",
+          "type": "string"
+        },
+        "generated_at": {
+          "format": "date-time",
+          "title": "Generated At",
+          "type": "string"
+        },
+        "analyzer_version": {
+          "title": "Analyzer Version",
+          "type": "string"
+        },
+        "repository_name": {
+          "title": "Repository Name",
+          "type": "string"
+        },
+        "repository_commit": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Repository Commit"
+        },
+        "models": {
+          "$ref": "#/$defs/ModelSelection"
+        },
+        "model_routing": {
+          "$ref": "#/$defs/ModelRoutingStats"
+        },
+        "prompt_version": {
+          "title": "Prompt Version",
+          "type": "string"
+        },
+        "parser": {
+          "title": "Parser",
+          "type": "string"
+        },
+        "tokenizer": {
+          "title": "Tokenizer",
+          "type": "string"
+        },
+        "token_usage_estimated": {
+          "default": true,
+          "title": "Token Usage Estimated",
+          "type": "boolean"
+        },
+        "token_usage_scope": {
+          "default": "Uncached API calls in this run; cache hits are excluded.",
+          "title": "Token Usage Scope",
+          "type": "string"
+        },
+        "planned_chunk_count": {
+          "default": 0,
+          "minimum": 0,
+          "title": "Planned Chunk Count",
+          "type": "integer"
+        },
+        "planned_source_tokens": {
+          "default": 0,
+          "minimum": 0,
+          "title": "Planned Source Tokens",
+          "type": "integer"
+        },
+        "analyzed_file_count": {
+          "minimum": 0,
+          "title": "Analyzed File Count",
+          "type": "integer"
+        },
+        "skipped_file_count": {
+          "minimum": 0,
+          "title": "Skipped File Count",
+          "type": "integer"
+        },
+        "parser_warning_file_count": {
+          "default": 0,
+          "minimum": 0,
+          "title": "Parser Warning File Count",
+          "type": "integer"
+        },
+        "cache_hits": {
+          "default": 0,
+          "minimum": 0,
+          "title": "Cache Hits",
+          "type": "integer"
+        },
+        "cache_misses": {
+          "default": 0,
+          "minimum": 0,
+          "title": "Cache Misses",
+          "type": "integer"
+        },
+        "token_usage": {
+          "$ref": "#/$defs/TokenUsage"
+        },
+        "token_usage_by_model": {
+          "additionalProperties": {
+            "$ref": "#/$defs/TokenUsage"
+          },
+          "title": "Token Usage By Model",
+          "type": "object"
+        }
+      },
+      "required": [
+        "generated_at",
+        "analyzer_version",
+        "repository_name",
+        "models",
+        "prompt_version",
+        "parser",
+        "tokenizer",
+        "analyzed_file_count",
+        "skipped_file_count"
+      ],
+      "title": "AnalysisMetadata",
+      "type": "object"
+    },
+    "ComplexityMetrics": {
+      "additionalProperties": false,
+      "properties": {
+        "lines_of_code": {
+          "minimum": 0,
+          "title": "Lines Of Code",
+          "type": "integer"
+        },
+        "cyclomatic_complexity": {
+          "minimum": 1,
+          "title": "Cyclomatic Complexity",
+          "type": "integer"
+        },
+        "parameter_count": {
+          "minimum": 0,
+          "title": "Parameter Count",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "lines_of_code",
+        "cyclomatic_complexity",
+        "parameter_count"
+      ],
+      "title": "ComplexityMetrics",
+      "type": "object"
+    },
+    "FileKnowledge": {
+      "additionalProperties": false,
+      "properties": {
+        "path": {
+          "title": "Path",
+          "type": "string"
+        },
+        "language": {
+          "title": "Language",
+          "type": "string"
+        },
+        "sha256": {
+          "pattern": "^[a-f0-9]{64}$",
+          "title": "Sha256",
+          "type": "string"
+        },
+        "summary": {
+          "title": "Summary",
+          "type": "string"
+        },
+        "has_parser_warnings": {
+          "default": false,
+          "title": "Has Parser Warnings",
+          "type": "boolean"
+        },
+        "types": {
+          "items": {
+            "$ref": "#/$defs/TypeKnowledge"
+          },
+          "title": "Types",
+          "type": "array"
+        },
+        "noteworthy_aspects": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Noteworthy Aspects",
+          "type": "array"
+        }
+      },
+      "required": [
+        "path",
+        "language",
+        "sha256",
+        "summary"
+      ],
+      "title": "FileKnowledge",
+      "type": "object"
+    },
+    "MethodKnowledge": {
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "qualified_name": {
+          "title": "Qualified Name",
+          "type": "string"
+        },
+        "signature": {
+          "title": "Signature",
+          "type": "string"
+        },
+        "description": {
+          "title": "Description",
+          "type": "string"
+        },
+        "return_type": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Return Type"
+        },
+        "parameters": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Parameters",
+          "type": "array"
+        },
+        "modifiers": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Modifiers",
+          "type": "array"
+        },
+        "annotations": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Annotations",
+          "type": "array"
+        },
+        "complexity": {
+          "$ref": "#/$defs/ComplexityMetrics"
+        },
+        "location": {
+          "$ref": "#/$defs/SourceLocation"
+        },
+        "noteworthy_aspects": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Noteworthy Aspects",
+          "type": "array"
+        }
+      },
+      "required": [
+        "name",
+        "qualified_name",
+        "signature",
+        "description",
+        "complexity",
+        "location"
+      ],
+      "title": "MethodKnowledge",
+      "type": "object"
+    },
+    "ModelRoutingStats": {
+      "additionalProperties": false,
+      "properties": {
+        "routine_chunk_count": {
+          "default": 0,
+          "minimum": 0,
+          "title": "Routine Chunk Count",
+          "type": "integer"
+        },
+        "complex_chunk_count": {
+          "default": 0,
+          "minimum": 0,
+          "title": "Complex Chunk Count",
+          "type": "integer"
+        },
+        "synthesis_artifact_count": {
+          "default": 0,
+          "minimum": 0,
+          "title": "Synthesis Artifact Count",
+          "type": "integer"
+        },
+        "complex_routing_reasons": {
+          "additionalProperties": {
+            "type": "integer"
+          },
+          "title": "Complex Routing Reasons",
+          "type": "object"
+        }
+      },
+      "title": "ModelRoutingStats",
+      "type": "object"
+    },
+    "ModelSelection": {
+      "additionalProperties": false,
+      "properties": {
+        "routine_extraction": {
+          "title": "Routine Extraction",
+          "type": "string"
+        },
+        "complex_extraction": {
+          "title": "Complex Extraction",
+          "type": "string"
+        },
+        "synthesis": {
+          "title": "Synthesis",
+          "type": "string"
+        }
+      },
+      "required": [
+        "routine_extraction",
+        "complex_extraction",
+        "synthesis"
+      ],
+      "title": "ModelSelection",
+      "type": "object"
+    },
+    "ModuleKnowledge": {
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "path": {
+          "title": "Path",
+          "type": "string"
+        },
+        "purpose": {
+          "title": "Purpose",
+          "type": "string"
+        },
+        "key_components": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Key Components",
+          "type": "array"
+        },
+        "dependencies": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Dependencies",
+          "type": "array"
+        },
+        "noteworthy_aspects": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Noteworthy Aspects",
+          "type": "array"
+        }
+      },
+      "required": [
+        "name",
+        "path",
+        "purpose"
+      ],
+      "title": "ModuleKnowledge",
+      "type": "object"
+    },
+    "ProjectOverview": {
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "purpose": {
+          "title": "Purpose",
+          "type": "string"
+        },
+        "architecture": {
+          "title": "Architecture",
+          "type": "string"
+        },
+        "technologies": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Technologies",
+          "type": "array"
+        },
+        "entry_points": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Entry Points",
+          "type": "array"
+        },
+        "key_workflows": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Key Workflows",
+          "type": "array"
+        },
+        "complexity_summary": {
+          "title": "Complexity Summary",
+          "type": "string"
+        },
+        "noteworthy_aspects": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Noteworthy Aspects",
+          "type": "array"
+        },
+        "limitations": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Limitations",
+          "type": "array"
+        }
+      },
+      "required": [
+        "name",
+        "purpose",
+        "architecture",
+        "complexity_summary"
+      ],
+      "title": "ProjectOverview",
+      "type": "object"
+    },
+    "SourceLocation": {
+      "additionalProperties": false,
+      "properties": {
+        "path": {
+          "description": "Repository-relative POSIX path",
+          "title": "Path",
+          "type": "string"
+        },
+        "start_line": {
+          "minimum": 1,
+          "title": "Start Line",
+          "type": "integer"
+        },
+        "end_line": {
+          "minimum": 1,
+          "title": "End Line",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "path",
+        "start_line",
+        "end_line"
+      ],
+      "title": "SourceLocation",
+      "type": "object"
+    },
+    "TokenUsage": {
+      "additionalProperties": false,
+      "properties": {
+        "prompt_tokens": {
+          "default": 0,
+          "minimum": 0,
+          "title": "Prompt Tokens",
+          "type": "integer"
+        },
+        "completion_tokens": {
+          "default": 0,
+          "minimum": 0,
+          "title": "Completion Tokens",
+          "type": "integer"
+        },
+        "total_tokens": {
+          "default": 0,
+          "minimum": 0,
+          "title": "Total Tokens",
+          "type": "integer"
+        }
+      },
+      "title": "TokenUsage",
+      "type": "object"
+    },
+    "TypeKind": {
+      "enum": [
+        "class",
+        "interface",
+        "enum",
+        "record",
+        "annotation"
+      ],
+      "title": "TypeKind",
+      "type": "string"
+    },
+    "TypeKnowledge": {
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "qualified_name": {
+          "title": "Qualified Name",
+          "type": "string"
+        },
+        "kind": {
+          "$ref": "#/$defs/TypeKind"
+        },
+        "description": {
+          "title": "Description",
+          "type": "string"
+        },
+        "annotations": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Annotations",
+          "type": "array"
+        },
+        "extends": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Extends",
+          "type": "array"
+        },
+        "implements": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Implements",
+          "type": "array"
+        },
+        "methods": {
+          "items": {
+            "$ref": "#/$defs/MethodKnowledge"
+          },
+          "title": "Methods",
+          "type": "array"
+        },
+        "location": {
+          "$ref": "#/$defs/SourceLocation"
+        },
+        "noteworthy_aspects": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Noteworthy Aspects",
+          "type": "array"
+        }
+      },
+      "required": [
+        "name",
+        "qualified_name",
+        "kind",
+        "description",
+        "location"
+      ],
+      "title": "TypeKnowledge",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "metadata": {
+      "$ref": "#/$defs/AnalysisMetadata"
+    },
+    "overview": {
+      "$ref": "#/$defs/ProjectOverview"
+    },
+    "modules": {
+      "items": {
+        "$ref": "#/$defs/ModuleKnowledge"
+      },
+      "title": "Modules",
+      "type": "array"
+    },
+    "files": {
+      "items": {
+        "$ref": "#/$defs/FileKnowledge"
+      },
+      "title": "Files",
+      "type": "array"
+    }
+  },
+  "required": [
+    "metadata",
+    "overview"
+  ],
+  "title": "AnalysisReport",
+  "type": "object"
+}

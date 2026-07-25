@@ -1,0 +1,17 @@
+.DS_Store
+.env
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.venv/
+__pycache__/
+*.egg-info/
+*.py[cod]
+.coverage
+coverage.xml
+build/
+dist/
+htmlcov/
+
+# API response cache is reproducible but not a submission artifact.
+output/cache/

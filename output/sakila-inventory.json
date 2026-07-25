@@ -1,0 +1,287 @@
+{
+  "repository": "spring-rest-sakila",
+  "scope": {
+    "selected_files": 213,
+    "skipped_files": 18,
+    "skipped_by_reason": {
+      "file_too_large": 1,
+      "unsupported_file_type": 17
+    },
+    "java_files": 200,
+    "types": 265,
+    "methods": 652,
+    "parser_warning_files": [
+      "src/main/java/com/example/app/services/catalog/domain/serializer/LocalDateYearSerializer.java"
+    ],
+    "languages": {
+      "Java": 200,
+      "Kotlin Script": 2,
+      "Markdown": 2,
+      "Properties": 5,
+      "SQL": 1,
+      "TOML": 1,
+      "YAML": 2
+    }
+  },
+  "token_plan": {
+    "tokenizer": "o200k_base",
+    "source_tokens": 102843,
+    "analysis_chunks": 213,
+    "chunk_token_budget": 12000
+  },
+  "model_plan": {
+    "models": {
+      "routine_extraction": "gpt-5.6-luna",
+      "complex_extraction": "gpt-5.6-terra",
+      "synthesis": "gpt-5.6-sol"
+    },
+    "routine_extraction_chunks": 170,
+    "complex_extraction_chunks": 43,
+    "synthesis_artifacts": 14,
+    "complex_routing_reasons": {
+      "architecture_context": 3,
+      "architecture_sensitive_path": 20,
+      "custom_query_implementation": 16,
+      "large_chunk": 2,
+      "parser_warning": 1,
+      "query_definition": 1,
+      "runtime_configuration": 1
+    }
+  },
+  "complexity": {
+    "average_cyclomatic_complexity": 1.78,
+    "maximum_cyclomatic_complexity": 16,
+    "low_1_to_5": 605,
+    "moderate_6_to_10": 36,
+    "high_11_plus": 11,
+    "hotspots": [
+      {
+        "path": "src/main/java/com/example/app/services/catalog/domain/dto/FilmDto.java",
+        "qualified_name": "com.example.app.services.catalog.domain.dto.FilmDto.Film.equals",
+        "signature": "public boolean equals(Object o)",
+        "cyclomatic_complexity": 16,
+        "lines_of_code": 18,
+        "start_line": 93
+      },
+      {
+        "path": "src/main/java/com/example/app/services/catalog/domain/entity/FilmEntity.java",
+        "qualified_name": "com.example.app.services.catalog.domain.entity.FilmEntity.equals",
+        "signature": "public boolean equals(Object o)",
+        "cyclomatic_complexity": 16,
+        "lines_of_code": 18,
+        "start_line": 147
+      },
+      {
+        "path": "src/main/java/com/example/app/services/catalog/domain/dto/FilmDto.java",
+        "qualified_name": "com.example.app.services.catalog.domain.dto.FilmDto.FilmRequest.equals",
+        "signature": "public boolean equals(Object o)",
+        "cyclomatic_complexity": 14,
+        "lines_of_code": 16,
+        "start_line": 167
+      },
+      {
+        "path": "src/main/java/com/example/app/services/customer/domain/dto/CustomerDetailsDto.java",
+        "qualified_name": "com.example.app.services.customer.domain.dto.CustomerDetailsDto.CustomerDetails.equals",
+        "signature": "public boolean equals(Object o)",
+        "cyclomatic_complexity": 12,
+        "lines_of_code": 14,
+        "start_line": 85
+      },
+      {
+        "path": "src/main/java/com/example/app/services/catalog/domain/dto/FilmDetailsDto.java",
+        "qualified_name": "com.example.app.services.catalog.domain.dto.FilmDetailsDto.FilmDetails.equals",
+        "signature": "public boolean equals(Object o)",
+        "cyclomatic_complexity": 11,
+        "lines_of_code": 13,
+        "start_line": 83
+      },
+      {
+        "path": "src/main/java/com/example/app/services/customer/domain/entity/CustomerEntity.java",
+        "qualified_name": "com.example.app.services.customer.domain.entity.CustomerEntity.equals",
+        "signature": "public boolean equals(Object o)",
+        "cyclomatic_complexity": 11,
+        "lines_of_code": 13,
+        "start_line": 107
+      },
+      {
+        "path": "src/main/java/com/example/app/services/location/domain/dto/AddressDto.java",
+        "qualified_name": "com.example.app.services.location.domain.dto.AddressDto.Address.equals",
+        "signature": "public boolean equals(Object o)",
+        "cyclomatic_complexity": 11,
+        "lines_of_code": 13,
+        "start_line": 67
+      },
+      {
+        "path": "src/main/java/com/example/app/services/location/domain/entity/AddressEntity.java",
+        "qualified_name": "com.example.app.services.location.domain.entity.AddressEntity.equals",
+        "signature": "public boolean equals(Object o)",
+        "cyclomatic_complexity": 11,
+        "lines_of_code": 13,
+        "start_line": 101
+      },
+      {
+        "path": "src/main/java/com/example/app/services/staff/domain/dto/StaffDetailsDto.java",
+        "qualified_name": "com.example.app.services.staff.domain.dto.StaffDetailsDto.StaffDetails.equals",
+        "signature": "public boolean equals(Object o)",
+        "cyclomatic_complexity": 11,
+        "lines_of_code": 13,
+        "start_line": 79
+      },
+      {
+        "path": "src/main/java/com/example/app/services/staff/domain/dto/StaffDto.java",
+        "qualified_name": "com.example.app.services.staff.domain.dto.StaffDto.Staff.equals",
+        "signature": "public boolean equals(Object o)",
+        "cyclomatic_complexity": 11,
+        "lines_of_code": 13,
+        "start_line": 76
+      },
+      {
+        "path": "src/main/java/com/example/app/services/staff/domain/entity/StaffEntity.java",
+        "qualified_name": "com.example.app.services.staff.domain.entity.StaffEntity.equals",
+        "signature": "public boolean equals(Object o)",
+        "cyclomatic_complexity": 11,
+        "lines_of_code": 13,
+        "start_line": 116
+      },
+      {
+        "path": "src/main/java/com/example/app/services/customer/domain/dto/CustomerDto.java",
+        "qualified_name": "com.example.app.services.customer.domain.dto.CustomerDto.Customer.equals",
+        "signature": "public boolean equals(Object o)",
+        "cyclomatic_complexity": 10,
+        "lines_of_code": 12,
+        "start_line": 71
+      },
+      {
+        "path": "src/main/java/com/example/app/services/payment/domain/dto/PaymentDto.java",
+        "qualified_name": "com.example.app.services.payment.domain.dto.PaymentDto.Payment.equals",
+        "signature": "public boolean equals(Object o)",
+        "cyclomatic_complexity": 10,
+        "lines_of_code": 12,
+        "start_line": 66
+      },
+      {
+        "path": "src/main/java/com/example/app/services/payment/domain/entity/PaymentEntity.java",
+        "qualified_name": "com.example.app.services.payment.domain.entity.PaymentEntity.equals",
+        "signature": "public boolean equals(Object o)",
+        "cyclomatic_complexity": 10,
+        "lines_of_code": 12,
+        "start_line": 100
+      },
+      {
+        "path": "src/main/java/com/example/app/services/rental/domain/dto/RentalDto.java",
+        "qualified_name": "com.example.app.services.rental.domain.dto.RentalDto.Rental.equals",
+        "signature": "public boolean equals(Object o)",
+        "cyclomatic_complexity": 10,
+        "lines_of_code": 12,
+        "start_line": 65
+      },
+      {
+        "path": "src/main/java/com/example/app/services/rental/domain/entity/RentalEntity.java",
+        "qualified_name": "com.example.app.services.rental.domain.entity.RentalEntity.equals",
+        "signature": "public boolean equals(Object o)",
+        "cyclomatic_complexity": 10,
+        "lines_of_code": 12,
+        "start_line": 103
+      },
+      {
+        "path": "src/main/java/com/example/app/services/staff/domain/dto/StaffDto.java",
+        "qualified_name": "com.example.app.services.staff.domain.dto.StaffDto.StaffRequest.equals",
+        "signature": "public boolean equals(Object o)",
+        "cyclomatic_complexity": 10,
+        "lines_of_code": 12,
+        "start_line": 137
+      },
+      {
+        "path": "src/main/java/com/example/app/services/customer/domain/dto/CustomerDto.java",
+        "qualified_name": "com.example.app.services.customer.domain.dto.CustomerDto.CustomerRequest.equals",
+        "signature": "public boolean equals(Object o)",
+        "cyclomatic_complexity": 9,
+        "lines_of_code": 11,
+        "start_line": 120
+      },
+      {
+        "path": "src/main/java/com/example/app/services/location/domain/dto/AddressDto.java",
+        "qualified_name": "com.example.app.services.location.domain.dto.AddressDto.AddressRequest.equals",
+        "signature": "public boolean equals(Object o)",
+        "cyclomatic_complexity": 9,
+        "lines_of_code": 11,
+        "start_line": 127
+      },
+      {
+        "path": "src/main/java/com/example/app/services/payment/domain/dto/PaymentDto.java",
+        "qualified_name": "com.example.app.services.payment.domain.dto.PaymentDto.PaymentRequest.equals",
+        "signature": "public boolean equals(Object o)",
+        "cyclomatic_complexity": 8,
+        "lines_of_code": 10,
+        "start_line": 113
+      }
+    ]
+  },
+  "modules": {
+    "common": {
+      "files": 26,
+      "types": 31,
+      "methods": 42
+    },
+    "config": {
+      "files": 5,
+      "types": 5,
+      "methods": 14
+    },
+    "project": {
+      "files": 10,
+      "types": 1,
+      "methods": 1
+    },
+    "resources": {
+      "files": 4,
+      "types": 0,
+      "methods": 0
+    },
+    "services/auth": {
+      "files": 8,
+      "types": 12,
+      "methods": 13
+    },
+    "services/catalog": {
+      "files": 48,
+      "types": 63,
+      "methods": 182
+    },
+    "services/customer": {
+      "files": 12,
+      "types": 17,
+      "methods": 54
+    },
+    "services/location": {
+      "files": 30,
+      "types": 38,
+      "methods": 81
+    },
+    "services/payment": {
+      "files": 10,
+      "types": 13,
+      "methods": 40
+    },
+    "services/rental": {
+      "files": 11,
+      "types": 16,
+      "methods": 42
+    },
+    "services/staff": {
+      "files": 12,
+      "types": 17,
+      "methods": 45
+    },
+    "services/store": {
+      "files": 25,
+      "types": 35,
+      "methods": 94
+    },
+    "tests": {
+      "files": 12,
+      "types": 17,
+      "methods": 44
+    }
+  }
+}
