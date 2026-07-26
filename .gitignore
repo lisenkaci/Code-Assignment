@@ -13,5 +13,8 @@ build/
 dist/
 htmlcov/
 
+# Local presentation and interview preparation material.
+PRESENTATION_GUIDE.md
+
 # API response cache is reproducible but not a submission artifact.
 output/cache/
